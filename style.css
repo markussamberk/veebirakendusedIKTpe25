@@ -1,0 +1,89 @@
+/*kommentaar*/
+h1{
+    font-variant: small-caps;
+    font-size: xx-large;
+    color: lightcoral; /*teksti värv*/
+    background: transparent; /*tausta värv*/
+}
+header{
+    padding: 5%;
+    background-color: dimgrey;
+    border-left: 3px solid lightcoral;
+    border-bottom: 3px dotted lightcoral;
+    border-radius: 0 0 0 60px;
+    background-image: url('paike.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+footer{
+    padding: 5%;
+    background-color: dimgrey;
+    border-left: 3px solid lightcoral;
+    border-top: 3px dotted lightcoral;
+    border-radius: 60px 0 0 0;
+}
+section#osa1{
+    padding: 5%;
+    border: 1px solid lightcoral;
+    margin: 5px;
+    width: 25%;
+
+}
+section#osa2{
+    padding: 5%;
+    border: 1px solid green;
+    margin: 5px;
+    width: 15%;
+}
+section#osa3{
+    padding: 5%;
+    border-bottom: 1px solid blue;
+    border-right: 1px solid blue;
+    margin: 10px;
+    width: 35%;
+
+}
+section#osa4{
+    padding: 5%;
+    border: 1px dotted purple;
+    margin: 10px;
+    width: 30%;
+}
+section#osa5{
+    padding: 10%;
+    border-left: 2px dashed darkorange;
+    border-top: 2px dashed darkorange;
+    margin: 15px;
+    width: 20%;
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid lightcoral;
+}
+
+/*navigeerimis menüü*/
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightcoral;
+}
+nav ul li{
+    float:left;
+}
+nav ul li a{
+    display: block;
+    color: dimgrey;
+    text-decoration: none; /*allajooneta*/
+    text-align: center;
+    padding: 10px;
+    border-left: 3px solid lightcoral;
+}
+ul li a:hover{
+    background-color: lightcoral;
+}
+nav ul{
+    color: lightcoral;
+}
