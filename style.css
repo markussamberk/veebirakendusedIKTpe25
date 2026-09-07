@@ -58,9 +58,9 @@ section#osa5{
     width: 20%;
 }
 img{
-    width: 100%;
+    width: 30%;
     border-radius: 50%;
-    border: 5px solid lightcoral;
+    border: 5px solid darkslategray;
 }
 
 /*navigeerimis menüü*/
