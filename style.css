@@ -1,89 +1,113 @@
-/*kommentaar*/
-h1{
-    font-variant: small-caps;
-    font-size: xx-large;
-    color: lightcoral; /*teksti värv*/
-    background: transparent; /*tausta värv*/
+h1 {
+    background-color: darksalmon;
+    color: darkgreen;
 }
-header{
-    padding: 5%;
-    background-color: dimgrey;
-    border-left: 3px solid lightcoral;
-    border-bottom: 3px dotted lightcoral;
-    border-radius: 0 0 0 60px;
-    background-image: url('paike.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-
+header, footer{
+    font-family: Georgia;
+    font-size: large;
+    width: 97.8%;
+    border: 5px dashed darkred; /*dashed, dotted, double, outline*/
+    background-color: darksalmon;
+    border-radius: 120px;
+    padding:1%; /*vahe teksti ja piiri vahel*/
+}
+footer#teine{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 97.4%;
+    text-align: center;
 }
 footer{
-    padding: 5%;
-    background-color: dimgrey;
-    border-left: 3px solid lightcoral;
-    border-top: 3px dotted lightcoral;
-    border-radius: 60px 0 0 0;
+    text-align: center;
 }
-section#osa1{
-    padding: 5%;
-    border: 1px solid lightcoral;
-    margin: 5px;
-    width: 25%;
-
-}
-section#osa2{
-    padding: 5%;
-    border: 1px solid green;
-    margin: 5px;
-    width: 15%;
-}
-section#osa3{
-    padding: 5%;
-    border-bottom: 1px solid blue;
-    border-right: 1px solid blue;
-    margin: 10px;
-    width: 35%;
-
-}
-section#osa4{
-    padding: 5%;
-    border: 1px dotted purple;
-    margin: 10px;
-    width: 30%;
-}
-section#osa5{
-    padding: 10%;
-    border-left: 2px dashed darkorange;
-    border-top: 2px dashed darkorange;
-    margin: 15px;
-    width: 20%;
-}
-img{
-    width: 30%;
-    border-radius: 50%;
-    border: 5px solid darkslategray;
-}
-
-/*navigeerimis menüü*/
 nav ul{
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
-    background-color: lightcoral;
+    background-color: darksalmon;
 }
-nav ul li{
-    float:left;
+
+nav li{
+    float: left;
+    padding: 1%;
 }
-nav ul li a{
+
+main{
     display: block;
-    color: dimgrey;
-    text-decoration: none; /*allajooneta*/
+    margin: 50px;
+    padding:1px;
+}
+
+nav a:hover{
+    background-color: grey;
+}
+
+nav li a{
+    font-family: Georgia;
+    font-size: large;
+    text-decoration: none;
+}
+
+/********************************************section******************************/
+section#osa1{
+    display: inline-block;
+    width: 20%;
+    border-right: 1pt solid aqua;
+    border-bottom: 1pt solid aqua;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+}
+section#osa1 h3{
     text-align: center;
-    padding: 10px;
-    border-left: 3px solid lightcoral;
+    background-color: gold;
+    border-radius: 60px;
+    padding: 5%;
+    font-weight: bold;
+    font-variant: all-petite-caps;
 }
-ul li a:hover{
-    background-color: lightcoral;
+
+section#osa2{
+    display: inline-block;
+    width: 20%;
+    border-right: 1pt dotted darkmagenta;
+    border-bottom: 1pt dotted darkmagenta;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
 }
-nav ul{
-    color: lightcoral;
+section#osa2 h3{
+    text-align: center;
+    background-color: deeppink;
+    border-radius: 60px;
+    padding: 5%;
+    font-weight: bold;
+    font-variant: all-petite-caps;
 }
+
+section#osa3{
+    display: inline-block;
+    width: 20%;
+    border-right: 1pt dashed darkred;
+    border-bottom: 1pt dashed darkred;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+}
+section#osa3 h3{
+    text-align: center;
+    background-color: orangered;
+    border-radius: 60px;
+    padding: 5%;
+    font-weight: bold;
+    font-variant: all-petite-caps;
+}
+
+
+
+
+
+
+

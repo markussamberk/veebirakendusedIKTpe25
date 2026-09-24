@@ -1,64 +1,58 @@
-<!DOCTYPE html><!--deklaratsioon et kasutame html5-->
-<!--kommentaar-->
+<!DOCTYPE html><!--html5 deklareerimine-->
 <html lang="et">
-<head> <!--tehniline info-->
+<head>
     <meta charset="UTF-8">
-    <title>Markuse veebirakenduste aluste tööd</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Markuse veebirakenduste leht</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="kuupaev.js"></script>
+    <!-- lisa meta author,
+    description,
+    favicon 32x32 suurusega,
+    enne favicon salvesta oma projekti-->
 </head>
 <body>
-<!--veebilehe sisu, mis kasutaja näeb-->
-<!--päis-->
+
+<!--HTML5 semantilised elemendid-->
 <header>
-  <h1>
-    Markuse veebirakenduste aluste tööd
-  </h1>
+    <h1>Markuse veebirakenduste leht</h1>
 </header>
-<!--navegeerimismenüü-->
+<!--navigeerimis menüü-->
 <nav>
-  <ul>
-    <li>
-      <a href="index.html">Avaleht</a>
-    </li>
-    <li>
-      <a href="kontakt.html">Kontakt</a>
-    </li>
-    <li>
-      <a href="tehtud.html">Tehtud tööd</a>
-    </li>
-    <li>
-      <a href="lingid.html">Kasulikud lingid</a>
-    </li>
-    <li>
-      <a href="meedia.html">Meedia</a>
-    </li>
-  </ul>
+    <ul>
+        <li>
+            <a href="index.html">Kodu</a>
+        </li>
+        <li>
+            <a href="kontakt.html">Kontakt</a>
+        </li>
+        <li>
+            <a href="tood.html">Tehtud tööd</a></li>
+        <li>
+            <a href="uudised.html">Uudised</a>
+        </li>
+        <li>
+            <a href="meedia.html">Meedia</a>
+        </li>
+    </ul>
 </nav>
-<!--sisu-->
 <main>
-  <section id="osa1">
-    <h2>Tere tulemast!</h2>
-    <p>See on veebirakenduste tunnis
-      käsitsi kirjutatud leht!</p>
-    <br>
-    <br>
-    <p>Palun kasuta navigeerimismenüü, et leida info!</p>
-  </section>
+    <section>
+        <h3>Hariduskäik</h3>
+        <div>
+            Praegu ma õpin Tallinna Tööstushariduskeskuses.
+            <br>
+            Enne kutsekooli ma lõpetasin Raasiku Kooli
 
-  <section id="osa2">
-    <h2>Päevapilt</h2>
-    <div>Ise tehtud pilt
-      <img src="oun.png" alt="see on punane õun" id="erapilt">
+        </div>
 
-    </div>
-  </section>
-
+    </section>
+    <section>
+        <h3>Hobbyd</h3>
+        <div>Sport, male, arvutimängud</div>
+    </section>
 </main>
-<!--jalus-->
-<footer>
-  <div>
-    Õpilase leht
-  </div>
+<footer id="teine">
+    &copy;Markus 2025
 </footer>
 
 
